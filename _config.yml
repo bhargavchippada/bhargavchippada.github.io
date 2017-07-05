@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Bhargav Chippada"
+title                    : "My Blog"
 title_separator          : "-"
-name                     : "Bhargav Chipapda"
+name                     : "Bhargav Chippada"
 description              : "Personal Blog"
 url                      : "https://bhargavchippada.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -48,8 +48,8 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification : "googled5fe4c13a48a55a4.html"
+bing_site_verification   : "97F2C8E326270AB4A2086FF27E7F149E"
 alexa_site_verification  :
 yandex_site_verification :
 
@@ -78,23 +78,23 @@ analytics:
 # Site Author
 author:
   name             : "Bhargav Chippada"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Comtemplations"
+  location         : "Bengaluru, India"
+  email            : "bhargavchippada19@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "www.facebook.com/bhargavchippada"
+  facebook         : "bhargavchippada"
   foursquare       :
-  github           : "www.github.com/bhargavchippada"
-  google_plus      :
+  github           : "bhargavchippada"
+  google_plus      : # "BhargavChippada19"
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "www.linkedin.com/in/bhargavchippada"
+  linkedin         : "bhargavchippada"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
