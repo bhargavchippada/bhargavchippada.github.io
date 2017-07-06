@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "bhargavchippada"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Comtemplations"
+  bio              : "Contemplations"
   location         : "Bengaluru, India"
   email            : "bhargavchippada19@gmail.com"
   uri              :
@@ -230,6 +230,12 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -242,7 +248,7 @@ defaults:
       author_profile: true
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
@@ -253,7 +259,7 @@ defaults:
       related: true
   # _projects
   - scope:
-      path: "_projects"
+      path: ""
       type: projects
     values:
       layout: single
