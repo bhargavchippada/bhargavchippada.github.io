@@ -5,10 +5,12 @@ excerpt: "Plot common types of geo data on map"
 last_modified_at: 2017-07-06
 ---
 
-An outcome of my frustration of not finding simple online tools to visualization a list of geohashs and bearings. The project is structured in a way so that new features can be added easily.
+An outcome of my frustration of not finding simple online tools to visualization a list of geohashes and bearings. The project is structured in a way so that new features can be added easily.
+
+![Mapviz Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/mapviz-min.png){: .align-center}
 
 ## Notable Features
-- Geohashs
+- Geohashes
 - Bearings
 
 WebPage: [MapViz](https://bhargavchippada.github.io/mapviz)
