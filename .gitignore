@@ -1,14 +1,27 @@
-*.gem
-*.sublime-project
-*.sublime-workspace
-.bundle
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# env
+.env
+.env*.local
+
+# misc
 .DS_Store
-.jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site
-codekit-config.json
-example/_site
-Gemfile.lock
-node_modules
+*.tsbuildinfo
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# debug
 npm-debug.log*
+
+# playwright
+.playwright-mcp/
+screenshot-*.png
