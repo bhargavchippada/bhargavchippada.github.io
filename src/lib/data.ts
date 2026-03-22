@@ -33,5 +33,16 @@ export const siteData: SiteData = {
       icon: "facebook",
     },
   ],
-  projects: [],
+  projects: [
+    {
+      title: "ForceAtlas2",
+      description:
+        "Fastest Python implementation of Gephi's ForceAtlas2 graph layout algorithm. Supports NetworkX, igraph, and raw adjacency matrices with Cython optimization for 10-100x speedup.",
+      imageUrl: "/images/forceatlas2-animation.gif",
+      liveUrl: "https://github.com/bhargavchippada/forceatlas2",
+      repoUrl: "https://github.com/bhargavchippada/forceatlas2",
+      tags: ["Python", "Cython", "NetworkX", "Graph Visualization"],
+      stars: 308,
+    },
+  ],
 };

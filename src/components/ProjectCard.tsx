@@ -33,7 +33,24 @@ export function ProjectCard({ project }: { readonly project: Project }) {
       </div>
 
       <div className="p-6">
-        <h3 className="mb-2 text-lg font-semibold">{project.title}</h3>
+        <div className="mb-2 flex items-center justify-between">
+          <h3 className="text-lg font-semibold">{project.title}</h3>
+          {project.stars != null && (
+            <span className="flex items-center gap-1 text-sm text-[var(--color-text-muted)]">
+              <svg
+                aria-hidden="true"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="text-yellow-400"
+              >
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+              </svg>
+              {project.stars.toLocaleString()}
+            </span>
+          )}
+        </div>
         <p className="mb-4 text-sm leading-relaxed text-[var(--color-text-secondary)]">
           {project.description}
         </p>

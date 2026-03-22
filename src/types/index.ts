@@ -11,6 +11,7 @@ export interface Project {
   readonly liveUrl?: string;
   readonly repoUrl?: string;
   readonly tags: readonly string[];
+  readonly stars?: number;
 }
 
 export interface SiteData {
