@@ -22,7 +22,7 @@ function ArrowIcon() {
 
 export function ProjectCard({ project }: { readonly project: Project }) {
   return (
-    <div className="group overflow-hidden rounded-xl border border-[var(--color-border)] bg-[var(--color-bg-card)] transition-all duration-300 hover:-translate-y-1 hover:border-[var(--color-accent)]/30 hover:shadow-lg hover:shadow-[var(--color-accent)]/5">
+    <div className="group overflow-hidden rounded-xl border border-[var(--color-border)] bg-[var(--color-bg-card)] shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[var(--color-accent)]/30 hover:shadow-lg hover:shadow-[var(--color-accent)]/5">
       <div className="relative aspect-[4/3] overflow-hidden bg-[var(--color-bg-primary)]">
         <Image
           src={project.imageUrl}
@@ -59,7 +59,7 @@ export function ProjectCard({ project }: { readonly project: Project }) {
           {project.tags.map((tag) => (
             <span
               key={tag}
-              className="rounded-full bg-[var(--color-accent)]/10 px-3 py-1 text-xs font-medium text-[var(--color-accent)]"
+              className="rounded-full bg-[var(--color-accent)]/15 px-3 py-1 text-xs font-medium text-[var(--color-accent)]"
             >
               {tag}
             </span>

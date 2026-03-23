@@ -65,7 +65,7 @@ export function SocialIcon({ link }: { readonly link: SocialLink }) {
     <a
       href={link.url}
       {...(!link.url.startsWith("mailto:") && { target: "_blank", rel: "noopener noreferrer" })}
-      className="p-2 text-[var(--color-text-muted)] transition-all duration-200 hover:text-[var(--color-accent)] hover:scale-110"
+      className="p-2 text-[var(--color-text-secondary)] transition-all duration-200 hover:text-[var(--color-accent)] hover:scale-110"
       aria-label={link.name}
     >
       <Icon />
