@@ -44,5 +44,14 @@ export const siteData: SiteData = {
       tags: ["Python", "Cython", "NetworkX", "Graph Visualization"],
       stars: 308,
     },
+    {
+      title: "Faster Whisper Dictation",
+      description:
+        "Real-time speech-to-text dictation powered by faster-whisper. Fully offline, privacy-first — no cloud APIs, no data leaves your machine. Cross-platform with hotkey support.",
+      imageUrl: "/images/faster-whisper-dictation-demo-cropped.gif",
+      liveUrl: "https://github.com/bhargavchippada/faster-whisper-dictation",
+      repoUrl: "https://github.com/bhargavchippada/faster-whisper-dictation",
+      tags: ["Python", "Whisper", "Speech-to-Text", "Privacy"],
+    },
   ],
 };
