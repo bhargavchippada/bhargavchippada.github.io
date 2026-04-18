@@ -1,7 +1,7 @@
 export interface SocialLink {
   readonly name: string;
   readonly url: string;
-  readonly icon: "github" | "linkedin" | "instagram" | "facebook" | "email";
+  readonly icon: "github" | "linkedin" | "instagram" | "facebook" | "email" | "resume";
 }
 
 export interface Project {

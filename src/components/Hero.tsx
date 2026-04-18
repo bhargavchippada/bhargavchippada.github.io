@@ -47,6 +47,9 @@ export function Hero() {
         <SocialIcon
           link={{ name: "Email", url: `mailto:${siteData.email}`, icon: "email" }}
         />
+        <SocialIcon
+          link={{ name: "Resume", url: siteData.resumeUrl, icon: "resume" }}
+        />
       </div>
 
       <div className="mt-8 animate-bounce-subtle text-[var(--color-text-muted)]" aria-hidden="true">
