@@ -6,6 +6,7 @@ export const siteData: SiteData = {
   location: "Mountain View, US",
   email: "bhargavchippada19@gmail.com",
   avatarUrl: "/images/profile-photo.jpg",
+  resumeUrl: "/resume.pdf",
   aboutText: [
     "I am a Software Engineer specializing in Machine Learning at Google, where I currently develop multi-modal search experiences for Google Lens and advanced video understanding for Shopping Video Search.",
     "I hold a Master of Science in Computer Science with an AI concentration from the University of Massachusetts Amherst and a Bachelor of Technology in Computer Science and Engineering from IIT Bombay.",

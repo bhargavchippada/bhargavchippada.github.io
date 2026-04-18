@@ -1,3 +1,4 @@
+import { siteData } from "@/lib/data";
 import { ThemeToggle } from "./ThemeToggle";
 
 export function Header() {
@@ -22,6 +23,14 @@ export function Header() {
             className="px-1 py-2 text-sm text-[var(--color-text-secondary)] transition-colors hover:text-[var(--color-text-primary)]"
           >
             Projects
+          </a>
+          <a
+            href={siteData.resumeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-1 py-2 text-sm text-[var(--color-text-secondary)] transition-colors hover:text-[var(--color-text-primary)]"
+          >
+            Resume
           </a>
           <ThemeToggle />
         </div>

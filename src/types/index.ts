@@ -20,6 +20,7 @@ export interface SiteData {
   readonly location: string;
   readonly email: string;
   readonly avatarUrl: string;
+  readonly resumeUrl: string;
   readonly aboutText: readonly string[];
   readonly socialLinks: readonly SocialLink[];
   readonly projects: readonly Project[];
